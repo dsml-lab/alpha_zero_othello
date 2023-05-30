@@ -6,9 +6,11 @@ Herokuにあがってるのでいつでも対局できます。（世代数２�
 ~~https://alphazerojk021.herokuapp.com/~~
 メンテしてないので公開中止…。  
 →代わりにDockerで起動できるようにしました。 
+###server接続
+サーバを立ちあげたマシンにsshのポートフォワーディングで接続すること
 
 ### Docker起動方法  
 Imageのビルド  
 `$ docker build -t othello_flask ./`  
 Container起動  
-`$ docker run --name othello_flask -p 80:80 -d othello_flask`
+`$ docker run --runtime nvidia --name othello_flask -p 80:80  othello_flask`
