@@ -6,8 +6,9 @@ Herokuにあがってるのでいつでも対局できます。（世代数２�
 ~~https://alphazerojk021.herokuapp.com/~~
 メンテしてないので公開中止…。  
 →代わりにDockerで起動できるようにしました。 
-###server接続
+# server接続
 サーバを立ちあげたマシンにsshのポートフォワーディングで接続すること
+
 
 ### Docker起動方法  
 Imageのビルド  
